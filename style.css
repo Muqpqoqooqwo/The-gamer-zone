@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #1a0327;
+    font-family: 'Poppins', sans-serif;
+    height: 350vh;
+}
+.container{
+    width: 400%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(content://com.android.providers.media.documents/document/image%3A1683797544);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: #8B0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.logo .fas{
+    font-size: 50px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ul.navbar li a.active{
+    color: #ADD8E6;
+}
+ul.navbar li a:hover:not(.active){
+    color: #ADD8E6;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background: #8B0000;
+    color: #000;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+#btn .fas{
+    margin-right: 10px;
+}
+
+/* Content desc starts here */
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+/* .content-desc{
+} */
+
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+    color: #ADD8E6;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #8B0000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+.rakuto{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(rgba(16,16,16),rgb(255,0,0));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.rakuto::before{
+    content: '';
+    width: 160px;
+    height: 170px;
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797554);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+.rakuto::after{
+    content: '';
+    width: 300px;
+    height: 400px;
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797532);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px 0;
+
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: #FFFFFF;
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+/* Section one starts here */
+
+.section-1{
+    width: 400%;
+    height:200vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(content://com.android.providers.media.documents/document/image%3A1683797557);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    width: 500px;
+    color: #00FFFF;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 100px;
+    height: 130px;
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797559);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797560);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-3{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797561);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-4{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797562);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-5{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797563);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-6{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797555);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+
+/* Section 3 starts here */
+.game-categories{
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #36454F;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797564);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    right: -140px;
+}
+
+.gw-1{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797565);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797566);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797567);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797568);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797569);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797570);
+    background-size: cover;
+    background-position: center;
+}
+.gw-7{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797571);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797561);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797563);
+    background-size: cover;
+    background-position: center;
+}
+.section-2{
+    width: 400%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(content://com.android.providers.media.documents/document/image%3A1683797572);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.p-image{
+    width: 100px;
+    height: 200px;
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797574);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0%;
+    position: relative;
+}
+.p-image-1::after{
+    content: 'VS';
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    font-size: 2rem;
+    color: 8B0000;
+}
+.players span{
+    font-size: 1.5rem;
+    color: #00FFFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.stars{
+    color: #FFFFFF;
+}
+.p-image-2{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797579);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-image-2{
+    background: url()content://com.android.providers.media.documents/document/image%3A1683797576;
+    background-size: cover;
+    background-position: center;
+}
+.p-image-3::after{
+    content: 'VS';
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.p-image-4{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797578);
+    background-size: cover;
+    background-position: center;
+}
+/* section 3 starts here */
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/controller.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-3-wrapper{
+    display: flex;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback{
+    width: 80px;
+    height: 300px;
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797580);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.feedback-desc{
+    width: 100px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.feedback-desc .far{
+    color: #8B0000;
+    font-size: 30px;
+}
+.f-img-2{
+    background: url(content://com.android.providers.media.documents/document/image%3A1683797581);
+    background-position: center;
+    background-size: cover;
+}
+/* FOoter section */
+footer{
+    width: 400%;
+    height: 50vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #8B0000;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
